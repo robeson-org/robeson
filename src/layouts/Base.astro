@@ -1,0 +1,38 @@
+---
+import "../styles/global.css";
+interface Props {
+  title: string;
+  description: string;
+}
+const { title, description } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <title>{title} · Robeson</title>
+    <link rel="icon" href="/favicon.svg" />
+    <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />
+  </head>
+  <body>
+    <a class="skip" href="#main">
+      Skip to content
+    </a>
+    <header>
+      <a class="wordmark" href="/">
+        Robeson<span>A Texas Interscholastic Competition Project</span>
+      </a>
+      <span class="edition">Publication in preparation</span>
+    </header>
+    <main id="main">
+      <slot />
+    </main>
+    <footer>
+      Robeson is an independent project. No endorsement by UIL or Paul Robeson’s
+      estate or legacy institutions is implied.
+    </footer>
+  </body>
+</html>

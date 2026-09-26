@@ -1,0 +1,29 @@
+---
+import { getCollection, render } from "astro:content";
+import Base from "../layouts/Base.astro";
+export async function getStaticPaths() {
+  return (await getCollection("publications")).map((doc) => ({
+    params: { id: doc.id },
+    props: { doc },
+  }));
+}
+const { doc } = Astro.props;
+const { Content } = await render(doc);
+---
+
+<Base title={doc.data.title} description={doc.data.description}>
+  <article>
+    <a href="/">← All publications</a>
+    <p class="eyebrow">{doc.data.status}</p>
+    <h1>{doc.data.title}</h1>
+    <p class="lead">{doc.data.description}</p>
+    <Content />
+    {doc.id === "standard/overview" && (
+      <p>
+        <a href="https://newtonprep.github.io/interscholastic-standard/">
+          Read the existing working draft →
+        </a>
+      </p>
+    )}
+  </article>
+</Base>

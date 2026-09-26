@@ -1,0 +1,54 @@
+---
+import Base from "../layouts/Base.astro";
+import { getCollection } from "astro:content";
+const documents = (await getCollection("publications")).sort(
+  (a, b) => a.data.order - b.data.order,
+);
+---
+
+<Base
+  title="Home"
+  description="Robeson: A Texas Interscholastic Competition Project."
+>
+  <section class="intro">
+    <p class="eyebrow">Standards · Research · Public policy</p>
+    <h1>
+      Interscholastic competition.
+      <br />A common standard.
+    </h1>
+    <p class="lead">
+      A home for the Interscholastic Standard and research on home-school
+      participation in Texas academic, artistic, and athletic competition.
+    </p>
+    <p>
+      Newton Prep is the first reference implementation. Robeson houses the
+      broader standards and policy work.
+    </p>
+  </section>
+  <section aria-labelledby="publications">
+    <h2 id="publications">The publications</h2>
+    <div class="catalog">
+      {documents.map((doc) => (
+        <a class="entry" href={`/${doc.id}/`}>
+          <span class="number">0{doc.data.order + 1}</span>
+          <div>
+            <h3>{doc.data.title}</h3>
+            <p>{doc.data.description}</p>
+            <span class="status">In preparation</span>
+          </div>
+          <span aria-hidden="true">↗</span>
+        </a>
+      ))}
+    </div>
+  </section>
+  <aside>
+    <h2>Current working draft</h2>
+    <p>
+      The existing standard remains available while this publication is
+      prepared.
+    </p>
+    <a href="https://newtonprep.github.io/interscholastic-standard/">
+      Read the current standard →
+    </a>
+  </aside>
+</Base>

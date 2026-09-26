@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "astro-build.astro-vscode",
+    "DavidAnson.vscode-markdownlint",
+    "redhat.vscode-yaml",
+    "esbenp.prettier-vscode"
+  ]
+}
