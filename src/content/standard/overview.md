@@ -1,8 +1,34 @@
 ---
 title: "Interscholastic Standard"
-description: "The canonical standard for home-education programs, teams, and students."
-status: placeholder
+description: "Working draft for review."
+status: "draft"
 order: 0
+group: "overview"
+sourcePath: "index.md"
+bodyTitle: true
+featured: true
 ---
 
-This publication is being prepared. Its text has not yet been migrated to Robeson.
+# Interscholastic Competition Standard for Home-Education Programs, Teams, and Students
+
+**Working draft for review.** No governing body has adopted this Standard. Reserved sections identify subjects still to be drafted. This site shows the current working text; a published version will be separately identified and fixed.
+
+## Proposed Standard
+
+1. [Purpose, scope, definitions, and conformance](/standard/00-purpose-and-conformance/)
+2. [Provisional governance for 2026–27](/standard/04-provisional-governance/)
+3. [Signatories and conformance tracks](/standard/05-schools-and-tracks/)
+4. [Organization and administration](/standard/06-organization-and-administration/)
+5. [Violations and protests](/standard/07-classification-of-violations-and-protests/)
+6. [Committee meetings and appeals](/standard/08-committee-meetings-and-appeals/)
+7. [The Standard and amendments](/standard/09-standard-and-amendments/)
+8. [Classification and grouping](/standard/09a-classification-and-grouping/)
+9. [Non-discrimination in contests](/standard/09b-non-discrimination-in-contests/)
+10. [Contests and calendar](/standard/09c-contests/)
+11. [HS-BASE: home-education classification](/standard/10-hs-base/)
+12. [Student eligibility](/standard/20-student-eligibility/)
+13. [Waivers](/standard/21-waiver-of-eligibility-rules/)
+14. [Awards](/standard/22-awards/)
+15. [Records, publications, and finances](/standard/23-records-publications-and-finances/)
+
+The files in `standard/` contain proposed governing text. The [project README](/standard/project/) explains the project and links to supporting notes and source material. The notes and sources aid review but do not add requirements.

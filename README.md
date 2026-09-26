@@ -17,7 +17,7 @@ Open the address printed by Astro. Before publishing, run `npm run build` and `n
 
 ## Structure
 
-- `src/content/standard/`: canonical standard after migration review.
+- `src/content/standard/`: proposed standard, supporting notes, and authority references.
 - `src/content/conformance/`: UIL profile.
 - `src/content/crosswalks/`: TAPPS crosswalk.
 - `src/content/shadow-uil/`: selected public research.
@@ -26,4 +26,4 @@ Open the address printed by Astro. Before publishing, run `npm run build` and `n
 - `migration/github-pages/`: unchanged source snapshot, excluded from the website.
 - `docs/`: authoring, deployment, and migration procedures.
 
-The initial site contains labeled placeholders. Existing substantive text remains on the current GitHub Pages site until migration is verified. Newton Prep is the first/reference implementation, not the owner of the general standard’s identity.
+The standard’s 28 Markdown documents have been migrated, preserving substantive wording and draft status. Other publication areas remain labeled placeholders. The original GitHub Pages site remains an archive. Newton Prep is the first/reference implementation, not the owner of the general standard’s identity.
