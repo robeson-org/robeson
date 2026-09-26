@@ -20,3 +20,7 @@ At Dynadot replace `ns1.dyna-ns.net` and `ns2.dyna-ns.net` with:
 Cloudflare imported A records for `@`, `www`, and `*`, each pointing to `185.53.179.128`. Public checks found no apex MX, TXT, or DS records. The automatic scan is not a complete registrar inventory. Pages will only attach the apex after delegation activates. Then replace the apex parking address through the Pages custom-domain flow and configure www. Check for any obsolete wildcard parking behavior before final cutover.
 
 The initial site contains publication placeholders and a link to the unchanged existing standard. No substantive standard text has been migrated into public Astro pages yet.
+
+## Custom domain connection — 2026-09-26
+
+After the user completed Dynadot delegation and Cloudflare marked the zone active, both `robeson.org` and `www.robeson.org` were attached through Pages. Cloudflare replaced each parking A record with a CNAME to `robeson.pages.dev`. The apex successfully rendered the Robeson homepage over HTTPS in the browser. The www hostname initially returned 522 while Pages verification was pending; a DNS recheck was triggered. The imported wildcard parking record remains unchanged.
