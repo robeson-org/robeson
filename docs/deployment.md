@@ -24,3 +24,9 @@ The initial site contains publication placeholders and a link to the unchanged e
 ## Custom domain connection — 2026-09-26
 
 After the user completed Dynadot delegation and Cloudflare marked the zone active, both `robeson.org` and `www.robeson.org` were attached through Pages. Cloudflare replaced each parking A record with a CNAME to `robeson.pages.dev`. The apex successfully rendered the Robeson homepage over HTTPS in the browser. The www hostname initially returned 522 while Pages verification was pending; a DNS recheck was triggered. The imported wildcard parking record remains unchanged.
+
+## Canonical hostname redirect
+
+Cloudflare Single Redirect `Redirect www to robeson.org` is active (rule ID `ffe26a57a9a04ce9a09ecb9ce9e1ad2a`). Match: `(http.host eq "www.robeson.org")`. Dynamic target: `concat("https://robeson.org", http.request.uri.path)`. Status: 301. Preserve query string: enabled. This applies to HTTP and HTTPS requests for www.
+
+Verified in the browser: `https://www.robeson.org/standard/overview/?source=redirect-check-2` resolves to `https://robeson.org/standard/overview/?source=redirect-check-2`. The apex is active with SSL enabled. This account-level rule is documented here because Pages `_redirects` does not support domain-level matching.
