@@ -1,0 +1,453 @@
+[
+  {
+    "source": "README.md",
+    "target": "src/content/standard/project.md",
+    "route": "/standard/project/",
+    "sourceSha256": "8638c3056da51036fcd35a94cb045168781ef64756fc032fe58f9502938544d6",
+    "linkChanges": [
+      {
+        "from": "standard/00-purpose-and-conformance.md#open-and-durable-stewardship",
+        "to": "/standard/00-purpose-and-conformance/#open-and-durable-stewardship"
+      },
+      {
+        "from": "standard/00-purpose-and-conformance.md",
+        "to": "/standard/00-purpose-and-conformance/"
+      },
+      {
+        "from": "standard/04-provisional-governance.md",
+        "to": "/standard/04-provisional-governance/"
+      },
+      {
+        "from": "standard/05-schools-and-tracks.md",
+        "to": "/standard/05-schools-and-tracks/"
+      },
+      {
+        "from": "standard/06-organization-and-administration.md",
+        "to": "/standard/06-organization-and-administration/"
+      },
+      {
+        "from": "standard/07-classification-of-violations-and-protests.md",
+        "to": "/standard/07-classification-of-violations-and-protests/"
+      },
+      {
+        "from": "standard/08-committee-meetings-and-appeals.md",
+        "to": "/standard/08-committee-meetings-and-appeals/"
+      },
+      {
+        "from": "standard/09-standard-and-amendments.md",
+        "to": "/standard/09-standard-and-amendments/"
+      },
+      {
+        "from": "standard/09a-classification-and-grouping.md",
+        "to": "/standard/09a-classification-and-grouping/"
+      },
+      {
+        "from": "standard/09b-non-discrimination-in-contests.md",
+        "to": "/standard/09b-non-discrimination-in-contests/"
+      },
+      {
+        "from": "standard/09c-contests.md",
+        "to": "/standard/09c-contests/"
+      },
+      {
+        "from": "standard/10-hs-base.md",
+        "to": "/standard/10-hs-base/"
+      },
+      {
+        "from": "standard/20-student-eligibility.md",
+        "to": "/standard/20-student-eligibility/"
+      },
+      {
+        "from": "standard/21-waiver-of-eligibility-rules.md",
+        "to": "/standard/21-waiver-of-eligibility-rules/"
+      },
+      {
+        "from": "standard/22-awards.md",
+        "to": "/standard/22-awards/"
+      },
+      {
+        "from": "standard/23-records-publications-and-finances.md",
+        "to": "/standard/23-records-publications-and-finances/"
+      },
+      {
+        "from": "notes/hs-base-test-vectors.md",
+        "to": "/standard/notes/hs-base-test-vectors/"
+      },
+      {
+        "from": "sources/texas-authorities.md",
+        "to": "/standard/sources/texas-authorities/"
+      },
+      {
+        "from": "sources/student-eligibility-authorities.md",
+        "to": "/standard/sources/student-eligibility-authorities/"
+      },
+      {
+        "from": "notes/student-eligibility-questions.md",
+        "to": "/standard/notes/student-eligibility-questions/"
+      },
+      {
+        "from": "notes/student-eligibility-test-vectors.md",
+        "to": "/standard/notes/student-eligibility-test-vectors/"
+      },
+      {
+        "from": "notes/uil-m-heading-map.md",
+        "to": "/standard/notes/uil-m-heading-map/"
+      },
+      {
+        "from": "notes/constitution-crosswalk.md",
+        "to": "/standard/notes/constitution-crosswalk/"
+      },
+      {
+        "from": "notes/uil-a-c-review.md",
+        "to": "/standard/notes/uil-a-c-review/"
+      },
+      {
+        "from": "notes/uil-e-review.md",
+        "to": "/standard/notes/uil-e-review/"
+      },
+      {
+        "from": "notes/program-roadmap.md",
+        "to": "/standard/notes/program-roadmap/"
+      }
+    ]
+  },
+  {
+    "source": "index.md",
+    "target": "src/content/standard/overview.md",
+    "route": "/standard/overview/",
+    "sourceSha256": "bd43dbbf2ac9b600674cbaf0ce24318bd0f2f22c5218694b3810ef22f36971f3",
+    "linkChanges": [
+      {
+        "from": "standard/00-purpose-and-conformance.md",
+        "to": "/standard/00-purpose-and-conformance/"
+      },
+      {
+        "from": "standard/04-provisional-governance.md",
+        "to": "/standard/04-provisional-governance/"
+      },
+      {
+        "from": "standard/05-schools-and-tracks.md",
+        "to": "/standard/05-schools-and-tracks/"
+      },
+      {
+        "from": "standard/06-organization-and-administration.md",
+        "to": "/standard/06-organization-and-administration/"
+      },
+      {
+        "from": "standard/07-classification-of-violations-and-protests.md",
+        "to": "/standard/07-classification-of-violations-and-protests/"
+      },
+      {
+        "from": "standard/08-committee-meetings-and-appeals.md",
+        "to": "/standard/08-committee-meetings-and-appeals/"
+      },
+      {
+        "from": "standard/09-standard-and-amendments.md",
+        "to": "/standard/09-standard-and-amendments/"
+      },
+      {
+        "from": "standard/09a-classification-and-grouping.md",
+        "to": "/standard/09a-classification-and-grouping/"
+      },
+      {
+        "from": "standard/09b-non-discrimination-in-contests.md",
+        "to": "/standard/09b-non-discrimination-in-contests/"
+      },
+      {
+        "from": "standard/09c-contests.md",
+        "to": "/standard/09c-contests/"
+      },
+      {
+        "from": "standard/10-hs-base.md",
+        "to": "/standard/10-hs-base/"
+      },
+      {
+        "from": "standard/20-student-eligibility.md",
+        "to": "/standard/20-student-eligibility/"
+      },
+      {
+        "from": "standard/21-waiver-of-eligibility-rules.md",
+        "to": "/standard/21-waiver-of-eligibility-rules/"
+      },
+      {
+        "from": "standard/22-awards.md",
+        "to": "/standard/22-awards/"
+      },
+      {
+        "from": "standard/23-records-publications-and-finances.md",
+        "to": "/standard/23-records-publications-and-finances/"
+      },
+      {
+        "from": "https://github.com/newtonprep/interscholastic-standard#readme",
+        "to": "/standard/project/"
+      }
+    ]
+  },
+  {
+    "source": "notes/constitution-crosswalk.md",
+    "target": "src/content/standard/notes/constitution-crosswalk.md",
+    "route": "/standard/notes/constitution-crosswalk/",
+    "sourceSha256": "d8b3c364c30150876f14d45424ff27fc6ee45f02a98df79c62c45dbc9c38884f",
+    "linkChanges": []
+  },
+  {
+    "source": "notes/governance-options.md",
+    "target": "src/content/standard/notes/governance-options.md",
+    "route": "/standard/notes/governance-options/",
+    "sourceSha256": "742e91c81ffcda6861cc87059ca48937b70742b759a7e20195909dee92b1d586",
+    "linkChanges": []
+  },
+  {
+    "source": "notes/hs-base-test-vectors.md",
+    "target": "src/content/standard/notes/hs-base-test-vectors.md",
+    "route": "/standard/notes/hs-base-test-vectors/",
+    "sourceSha256": "adc71ef2a6a82789c4808523569e3e9159632748949920f82c6b33711ecd9620",
+    "linkChanges": []
+  },
+  {
+    "source": "notes/program-roadmap.md",
+    "target": "src/content/standard/notes/program-roadmap.md",
+    "route": "/standard/notes/program-roadmap/",
+    "sourceSha256": "82602da3458bbc5cb6bb1a65260972f06452ed208ae787aa61d75c16b523bda7",
+    "linkChanges": [
+      {
+        "from": "governance-options.md",
+        "to": "/standard/notes/governance-options/"
+      }
+    ]
+  },
+  {
+    "source": "notes/student-eligibility-questions.md",
+    "target": "src/content/standard/notes/student-eligibility-questions.md",
+    "route": "/standard/notes/student-eligibility-questions/",
+    "sourceSha256": "9c545853767ad694d77350e6f40716fb91e731aa10b781348b01a44832c43967",
+    "linkChanges": []
+  },
+  {
+    "source": "notes/student-eligibility-test-vectors.md",
+    "target": "src/content/standard/notes/student-eligibility-test-vectors.md",
+    "route": "/standard/notes/student-eligibility-test-vectors/",
+    "sourceSha256": "c6a738a445d7dc6bb5b147adb7f5d9797336483134a548990c9386f31c9b5e59",
+    "linkChanges": []
+  },
+  {
+    "source": "notes/uil-a-c-review.md",
+    "target": "src/content/standard/notes/uil-a-c-review.md",
+    "route": "/standard/notes/uil-a-c-review/",
+    "sourceSha256": "7fa7960ba62c5adb589de3e01f094036e12f71ff0377dd476147898cf60b938d",
+    "linkChanges": []
+  },
+  {
+    "source": "notes/uil-e-review.md",
+    "target": "src/content/standard/notes/uil-e-review.md",
+    "route": "/standard/notes/uil-e-review/",
+    "sourceSha256": "b08dc12ea28695916648e75a82a2408e6b0d4ec24dafe3d30486a3fcd394948b",
+    "linkChanges": [
+      {
+        "from": "../standard/06-organization-and-administration.md",
+        "to": "/standard/06-organization-and-administration/"
+      }
+    ]
+  },
+  {
+    "source": "notes/uil-m-heading-map.md",
+    "target": "src/content/standard/notes/uil-m-heading-map.md",
+    "route": "/standard/notes/uil-m-heading-map/",
+    "sourceSha256": "4d36c6aef1806b03c9bd064ae0eec549bb49614a7665a4e33a9178b2dcbb6ffe",
+    "linkChanges": [
+      {
+        "from": "../standard/20-student-eligibility.md",
+        "to": "/standard/20-student-eligibility/"
+      }
+    ]
+  },
+  {
+    "source": "sources/student-eligibility-authorities.md",
+    "target": "src/content/standard/sources/student-eligibility-authorities.md",
+    "route": "/standard/sources/student-eligibility-authorities/",
+    "sourceSha256": "10a3fa697981ebdbcf689b78846c86a0ae26acddd366e7bf9b5166e6930afbcf",
+    "linkChanges": []
+  },
+  {
+    "source": "sources/texas-authorities.md",
+    "target": "src/content/standard/sources/texas-authorities.md",
+    "route": "/standard/sources/texas-authorities/",
+    "sourceSha256": "7d1187b83a4514bca7c23979cefb3f44669ce2454ee1beeebfe804eb0aeec673",
+    "linkChanges": []
+  },
+  {
+    "source": "standard/00-purpose-and-conformance.md",
+    "target": "src/content/standard/00-purpose-and-conformance.md",
+    "route": "/standard/00-purpose-and-conformance/",
+    "sourceSha256": "a987a51a7678a9bb9fdbc59dbab3516603a00a46fc979dea1b1343569b65aafe",
+    "linkChanges": [
+      {
+        "from": "10-hs-base.md",
+        "to": "/standard/10-hs-base/"
+      },
+      {
+        "from": "05-schools-and-tracks.md",
+        "to": "/standard/05-schools-and-tracks/"
+      },
+      {
+        "from": "10-hs-base.md#1-relationship-to-texas-law",
+        "to": "/standard/10-hs-base/#1-relationship-to-texas-law"
+      },
+      {
+        "from": "05-schools-and-tracks.md",
+        "to": "/standard/05-schools-and-tracks/"
+      }
+    ]
+  },
+  {
+    "source": "standard/04-provisional-governance.md",
+    "target": "src/content/standard/04-provisional-governance.md",
+    "route": "/standard/04-provisional-governance/",
+    "sourceSha256": "b83855897ecf025d957917e386e80388662428020825f6eb201aa39e3c858869",
+    "linkChanges": []
+  },
+  {
+    "source": "standard/05-schools-and-tracks.md",
+    "target": "src/content/standard/05-schools-and-tracks.md",
+    "route": "/standard/05-schools-and-tracks/",
+    "sourceSha256": "5625bc480b134db4878b4665d006c267249514f72fc6be487ad3b42da695d01f",
+    "linkChanges": [
+      {
+        "from": "00-purpose-and-conformance.md#definitions-and-construction",
+        "to": "/standard/00-purpose-and-conformance/#definitions-and-construction"
+      },
+      {
+        "from": "10-hs-base.md",
+        "to": "/standard/10-hs-base/"
+      }
+    ]
+  },
+  {
+    "source": "standard/06-organization-and-administration.md",
+    "target": "src/content/standard/06-organization-and-administration.md",
+    "route": "/standard/06-organization-and-administration/",
+    "sourceSha256": "56bd7716d56bf49324511db761bec4bd6261a2c38f0ff5be8b6abc0b46e974d3",
+    "linkChanges": [
+      {
+        "from": "05-schools-and-tracks.md",
+        "to": "/standard/05-schools-and-tracks/"
+      },
+      {
+        "from": "10-hs-base.md",
+        "to": "/standard/10-hs-base/"
+      }
+    ]
+  },
+  {
+    "source": "standard/07-classification-of-violations-and-protests.md",
+    "target": "src/content/standard/07-classification-of-violations-and-protests.md",
+    "route": "/standard/07-classification-of-violations-and-protests/",
+    "sourceSha256": "08ea09b4f4834162c525524ff9b460eecdd395b4f0847fcce7316eff8938e9aa",
+    "linkChanges": [
+      {
+        "from": "05-schools-and-tracks.md",
+        "to": "/standard/05-schools-and-tracks/"
+      },
+      {
+        "from": "06-organization-and-administration.md#chief-administrator-of-a-signatory-school",
+        "to": "/standard/06-organization-and-administration/#chief-administrator-of-a-signatory-school"
+      },
+      {
+        "from": "10-hs-base.md",
+        "to": "/standard/10-hs-base/"
+      },
+      {
+        "from": "08-committee-meetings-and-appeals.md",
+        "to": "/standard/08-committee-meetings-and-appeals/"
+      }
+    ]
+  },
+  {
+    "source": "standard/08-committee-meetings-and-appeals.md",
+    "target": "src/content/standard/08-committee-meetings-and-appeals.md",
+    "route": "/standard/08-committee-meetings-and-appeals/",
+    "sourceSha256": "d1b2d4fd01ac8a9c274539261f26a7722192eb90ad3b0c62dfff4a1fea85c8be",
+    "linkChanges": []
+  },
+  {
+    "source": "standard/09-standard-and-amendments.md",
+    "target": "src/content/standard/09-standard-and-amendments.md",
+    "route": "/standard/09-standard-and-amendments/",
+    "sourceSha256": "35283211857e004b21b21e8769a2f78c7c9d175480ca949572cbfbe17f2070f1",
+    "linkChanges": []
+  },
+  {
+    "source": "standard/09a-classification-and-grouping.md",
+    "target": "src/content/standard/09a-classification-and-grouping.md",
+    "route": "/standard/09a-classification-and-grouping/",
+    "sourceSha256": "2b0374532837f7f62b420da011fa88833c8505eca6c732584406c24358413ab7",
+    "linkChanges": []
+  },
+  {
+    "source": "standard/09b-non-discrimination-in-contests.md",
+    "target": "src/content/standard/09b-non-discrimination-in-contests.md",
+    "route": "/standard/09b-non-discrimination-in-contests/",
+    "sourceSha256": "efaf143c1af80162136aaa1c88b8529a5df7f7bb710b9a88737dd4e8716dc395",
+    "linkChanges": []
+  },
+  {
+    "source": "standard/09c-contests.md",
+    "target": "src/content/standard/09c-contests.md",
+    "route": "/standard/09c-contests/",
+    "sourceSha256": "06212e5c70e76b6d4fa0d5d56fbe9b57f3127659ec3e0ef16f1c9449006c26c3",
+    "linkChanges": []
+  },
+  {
+    "source": "standard/10-hs-base.md",
+    "target": "src/content/standard/10-hs-base.md",
+    "route": "/standard/10-hs-base/",
+    "sourceSha256": "821d73f40a1c9f8c085d7c5149d0812531fa07a2ada76735cfba45d292760953",
+    "linkChanges": [
+      {
+        "from": "../sources/texas-authorities.md",
+        "to": "/standard/sources/texas-authorities/"
+      }
+    ]
+  },
+  {
+    "source": "standard/20-student-eligibility.md",
+    "target": "src/content/standard/20-student-eligibility.md",
+    "route": "/standard/20-student-eligibility/",
+    "sourceSha256": "b2ec64d32a358d3546e79daff51f570aafeaa5e2399726ff14decbf6230209bf",
+    "linkChanges": [
+      {
+        "from": "10-hs-base.md",
+        "to": "/standard/10-hs-base/"
+      },
+      {
+        "from": "../sources/student-eligibility-authorities.md",
+        "to": "/standard/sources/student-eligibility-authorities/"
+      },
+      {
+        "from": "../notes/student-eligibility-questions.md",
+        "to": "/standard/notes/student-eligibility-questions/"
+      }
+    ]
+  },
+  {
+    "source": "standard/21-waiver-of-eligibility-rules.md",
+    "target": "src/content/standard/21-waiver-of-eligibility-rules.md",
+    "route": "/standard/21-waiver-of-eligibility-rules/",
+    "sourceSha256": "9437efac73eaf8e5d2d351c899d337a54e94f99557ac53297a1b1d99cc5cd826",
+    "linkChanges": []
+  },
+  {
+    "source": "standard/22-awards.md",
+    "target": "src/content/standard/22-awards.md",
+    "route": "/standard/22-awards/",
+    "sourceSha256": "2eadf9ac667276be8fcfc0c55da97f4355a6bd5a4b33df5d73ce2546dcc9c989",
+    "linkChanges": []
+  },
+  {
+    "source": "standard/23-records-publications-and-finances.md",
+    "target": "src/content/standard/23-records-publications-and-finances.md",
+    "route": "/standard/23-records-publications-and-finances/",
+    "sourceSha256": "0883e6dbeece2ca596c92283d0f6f554d83e1d442aa209af51b9502cdf499520",
+    "linkChanges": []
+  }
+]

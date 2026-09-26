@@ -1,9 +1,9 @@
 ---
 import Base from "../layouts/Base.astro";
 import { getCollection } from "astro:content";
-const documents = (await getCollection("publications")).sort(
-  (a, b) => a.data.order - b.data.order,
-);
+const documents = (await getCollection("publications"))
+  .filter((doc) => doc.data.featured)
+  .sort((a, b) => a.data.order - b.data.order);
 ---
 
 <Base
@@ -34,7 +34,11 @@ const documents = (await getCollection("publications")).sort(
           <div>
             <h3>{doc.data.title}</h3>
             <p>{doc.data.description}</p>
-            <span class="status">In preparation</span>
+            <span class="status">
+              {doc.data.status === "draft"
+                ? "Working draft · Read now"
+                : "In preparation"}
+            </span>
           </div>
           <span aria-hidden="true">↗</span>
         </a>
@@ -44,11 +48,9 @@ const documents = (await getCollection("publications")).sort(
   <aside>
     <h2>Current working draft</h2>
     <p>
-      The existing standard remains available while this publication is
-      prepared.
+      The proposed standard and its supporting notes are now available here. No
+      governing body has adopted the Standard.
     </p>
-    <a href="https://newtonprep.github.io/interscholastic-standard/">
-      Read the current standard →
-    </a>
+    <a href="/standard/overview/">Read the current standard →</a>
   </aside>
 </Base>

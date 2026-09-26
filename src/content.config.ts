@@ -9,6 +9,11 @@ const publications = defineCollection({
     status: z.enum(["placeholder", "draft", "published"]),
     order: z.number(),
     version: z.string().optional(),
+    group: z.enum(["standard", "notes", "sources", "overview"]).optional(),
+    sourcePath: z.string().optional(),
+    bodyTitle: z.boolean().default(false),
+    featured: z.boolean().default(true),
+    navTitle: z.string().optional(),
   }),
 });
 export const collections = { publications };

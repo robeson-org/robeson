@@ -8,22 +8,119 @@ export async function getStaticPaths() {
   }));
 }
 const { doc } = Astro.props;
-const { Content } = await render(doc);
+const { Content, headings } = await render(doc);
+const migrated = Boolean(doc.data.sourcePath);
+const all = (await getCollection("publications"))
+  .filter((item) => item.data.sourcePath)
+  .sort((a, b) => a.id.localeCompare(b.id));
+const groups = [
+  { key: "overview", title: "Start here" },
+  { key: "standard", title: "Proposed Standard" },
+  { key: "notes", title: "Supporting notes" },
+  { key: "sources", title: "Authorities and citations" },
+];
+const chapters = all.filter((item) => item.data.group === "standard");
+const chapterIndex = chapters.findIndex((item) => item.id === doc.id);
+const previous = chapterIndex > 0 ? chapters[chapterIndex - 1] : undefined;
+const next = chapterIndex >= 0 ? chapters[chapterIndex + 1] : undefined;
 ---
 
 <Base title={doc.data.title} description={doc.data.description}>
-  <article>
-    <a href="/">← All publications</a>
-    <p class="eyebrow">{doc.data.status}</p>
-    <h1>{doc.data.title}</h1>
-    <p class="lead">{doc.data.description}</p>
-    <Content />
-    {doc.id === "standard/overview" && (
-      <p>
-        <a href="https://newtonprep.github.io/interscholastic-standard/">
-          Read the existing working draft →
-        </a>
-      </p>
+  <div class:list={["document-grid", { "with-nav": migrated }]}>
+    {migrated && (
+      <nav class="standard-nav" aria-label="Standard navigation">
+        <details class="contents-disclosure">
+          <summary>Standard contents</summary>
+          {groups.map((group) => (
+            <section>
+              <h2>{group.title}</h2>
+              <ul>
+                {all
+                  .filter((item) => item.data.group === group.key)
+                  .map((item) => (
+                    <li>
+                      <a
+                        href={`/${item.id}/`}
+                        aria-current={item.id === doc.id ? "page" : undefined}
+                      >
+                        {item.data.navTitle ?? item.data.title}
+                      </a>
+                    </li>
+                  ))}
+              </ul>
+            </section>
+          ))}
+        </details>
+      </nav>
     )}
-  </article>
+    <article class="publication">
+      <a href={migrated ? "/standard/overview/" : "/"}>
+        {migrated ? "← Standard overview" : "← All publications"}
+      </a>
+      <p class="eyebrow">
+        {doc.data.status === "draft"
+          ? "Working draft · Not adopted"
+          : doc.data.status}
+        {doc.data.version && ` · v${doc.data.version}`}
+      </p>
+      {migrated && (
+        <p class="document-notice">
+          {doc.data.group === "notes" || doc.data.group === "sources"
+            ? "Supporting material. These notes and sources do not add conformance requirements."
+            : "Proposed text for review. No governing body has adopted this Standard."}
+        </p>
+      )}
+      {!doc.data.bodyTitle && (
+        <>
+          <h1>{doc.data.title}</h1>
+          <p class="lead">{doc.data.description}</p>
+        </>
+      )}
+      {headings.filter((h) => h.depth === 2).length > 2 && (
+        <details class="on-page">
+          <summary>On this page</summary>
+          <ul>
+            {headings
+              .filter((h) => h.depth === 2)
+              .map((h) => (
+                <li>
+                  <a href={`#${h.slug}`}>{h.text}</a>
+                </li>
+              ))}
+          </ul>
+        </details>
+      )}
+      <div class="prose">
+        <Content />
+      </div>
+      {migrated && (
+        <div class="source-links">
+          <a
+            href={`https://github.com/robeson-org/robeson/blob/main/src/content/${doc.id}.md`}
+          >
+            Markdown source
+          </a>
+          <a
+            href={`https://github.com/newtonprep/interscholastic-standard/blob/524f5f1ddedf78fe5a2c2cbb3b521993dd15bedf/${doc.data.sourcePath}`}
+          >
+            Original source at migration
+          </a>
+        </div>
+      )}
+      {(previous || next) && (
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+          {previous && (
+            <a href={`/${previous.id}/`}>
+              ← {previous.data.navTitle ?? previous.data.title}
+            </a>
+          )}
+          {next && (
+            <a href={`/${next.id}/`}>
+              {next.data.navTitle ?? next.data.title} →
+            </a>
+          )}
+        </nav>
+      )}
+    </article>
+  </div>
 </Base>

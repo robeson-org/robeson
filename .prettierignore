@@ -3,3 +3,5 @@ dist/
 .astro/
 migration/
 package-lock.json
+# Preserve migrated Markdown wording and whitespace exactly.
+src/content/standard/
