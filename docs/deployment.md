@@ -1,6 +1,6 @@
 # Cloudflare Pages deployment
 
-Target: the Newton Prep Cloudflare account, with a separate Robeson Pages project and domain. The user selected a separate GitHub organization owned by johnrharris; the chosen handle is `robeson-org`, which passed GitHub’s availability check. Organization creation awaits the user’s Terms acceptance. No deployment or DNS change has been performed.
+Target: the Newton Prep Cloudflare account, with a separate Robeson Pages project and domain. The user selected a separate GitHub organization owned by johnrharris; the organization is `robeson-org`, administered by johnrharris and institutionally part of Newton Prep. Repository: https://github.com/robeson-org/robeson. No deployment or DNS change has been performed.
 
 Connect the GitHub repository through Cloudflare’s Pages Git integration. Set production branch `main`, root directory `/`, build command `npm run build`, output directory `dist`, and `NODE_VERSION=24.19.0`. Use the lockfile. No adapter, server, database, or environment secrets are needed for this static site.
 
