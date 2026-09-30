@@ -1,5 +1,5 @@
 ---
-title: "HS-BASE v0.5 — Home-educated student"
+title: "HS-BASE v0.5 — home-educated student"
 description: "Working draft for review."
 status: "draft"
 order: 33
@@ -10,7 +10,7 @@ featured: false
 version: "0.5"
 ---
 
-# HS-BASE v0.5 — Home-educated student
+# HS-BASE v0.5 — home-educated student
 
 **Status:** Working normative text
 

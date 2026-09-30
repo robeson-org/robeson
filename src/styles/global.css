@@ -48,7 +48,6 @@ header {
 .eyebrow,
 .status {
   font-size: 11px;
-  text-transform: uppercase;
   letter-spacing: 0.13em;
   color: #645e51;
 }
@@ -185,7 +184,6 @@ footer {
   font:
     600 12px system-ui,
     sans-serif;
-  text-transform: uppercase;
   letter-spacing: 0.06em;
 }
 .standard-nav ul {
@@ -331,5 +329,100 @@ footer {
   body {
     background: white;
     color: black;
+  }
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 22px;
+  justify-content: flex-end;
+  font-size: 14px;
+}
+.site-nav a {
+  text-decoration: none;
+}
+.site-nav a:hover {
+  text-decoration: underline;
+}
+.site-nav a[aria-current="page"] {
+  color: #8b432e;
+  text-decoration: underline;
+}
+header {
+  gap: 28px;
+}
+.historical-photo {
+  margin: 32px 0;
+}
+.historical-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.historical-photo figcaption {
+  margin-top: 12px;
+  color: #645e51;
+  font:
+    12px/1.6 system-ui,
+    sans-serif;
+}
+.robeson-introduction {
+  display: grid;
+  grid-template-columns: minmax(0, 300px) minmax(0, 1fr);
+  gap: 48px;
+  align-items: center;
+  padding: 40px 0 52px;
+  margin-bottom: 40px;
+  border-top: 1px solid #c5c8be;
+  border-bottom: 1px solid #c5c8be;
+}
+.robeson-introduction figure {
+  margin: 0;
+}
+.robeson-introduction h2 {
+  font-size: clamp(32px, 4vw, 46px);
+  margin: 8px 0;
+}
+.robeson-introduction .eyebrow {
+  margin: 0;
+}
+.life-dates {
+  margin-top: 0;
+  color: #645e51;
+  font-family: Georgia, serif;
+}
+.read-more {
+  display: inline-block;
+  margin-top: 12px;
+}
+.portrait-photo,
+.stage-photo {
+  max-width: 440px;
+  margin-inline: auto;
+}
+.shipyard-photo {
+  max-width: 600px;
+  margin-inline: auto;
+}
+@media (max-width: 800px) {
+  header {
+    flex-wrap: wrap;
+  }
+  .site-nav {
+    justify-content: flex-start;
+  }
+}
+@media (max-width: 650px) {
+  .robeson-introduction {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 28px;
+  }
+  .robeson-introduction figure {
+    max-width: 330px;
+  }
+  .site-nav {
+    font-size: 13px;
+    gap: 12px 18px;
   }
 }

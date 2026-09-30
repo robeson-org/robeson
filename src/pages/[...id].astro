@@ -3,19 +3,20 @@ import { getCollection, render } from "astro:content";
 import Base from "../layouts/Base.astro";
 export async function getStaticPaths() {
   return (await getCollection("publications")).map((doc) => ({
-    params: { id: doc.id },
+    params: { id: doc.id === "robeson/background" ? "about" : doc.id },
     props: { doc },
   }));
 }
 const { doc } = Astro.props;
 const { Content, headings } = await render(doc);
 const migrated = Boolean(doc.data.sourcePath);
+const isAbout = doc.id === "robeson/background";
 const all = (await getCollection("publications"))
   .filter((item) => item.data.sourcePath)
   .sort((a, b) => a.id.localeCompare(b.id));
 const groups = [
   { key: "overview", title: "Start here" },
-  { key: "standard", title: "Proposed Standard" },
+  { key: "standard", title: "Proposed standard" },
   { key: "notes", title: "Supporting notes" },
   { key: "sources", title: "Authorities and citations" },
 ];
@@ -58,9 +59,11 @@ const next = chapterIndex >= 0 ? chapters[chapterIndex + 1] : undefined;
         {migrated ? "← Standard overview" : "← All publications"}
       </a>
       <p class="eyebrow">
-        {doc.data.status === "draft"
-          ? "Working draft · Not adopted"
-          : doc.data.status}
+        {isAbout
+          ? "About the project"
+          : doc.data.status === "draft"
+            ? "Working draft · Not adopted"
+            : doc.data.status}
         {doc.data.version && ` · v${doc.data.version}`}
       </p>
       {migrated && (

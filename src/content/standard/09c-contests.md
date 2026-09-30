@@ -13,18 +13,18 @@ featured: false
 
 **Status:** Discussion draft. These headings establish subject order only; no contest calendar or scheduling procedure has been adopted.
 
-## Contests and Pilot Programs
+## Contests and pilot programs
 
 **Reserved for expansion.**
 
-## Official Calendar
+## Official calendar
 
 **Reserved for expansion.**
 
-## Rescheduling Contests
+## Rescheduling contests
 
 **Reserved for expansion.**
 
-## Non-Traditional School Years
+## Non-traditional school years
 
 **Reserved for expansion.**

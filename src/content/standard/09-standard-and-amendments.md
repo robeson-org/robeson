@@ -1,5 +1,5 @@
 ---
-title: "Standard and Amendments"
+title: "Standard and amendments"
 description: "Working draft for review."
 status: "draft"
 order: 29
@@ -9,31 +9,31 @@ bodyTitle: true
 featured: false
 ---
 
-# Standard and Amendments
+# Standard and amendments
 
 **Status:** Reserved discussion draft. These headings establish subject order only; no rulemaking procedure has been adopted.
 
-## General Purposes
+## General purposes
 
 **Reserved for expansion.**
 
-## Notice of Proposed Standard Provisions
+## Notice of proposed standard provisions
 
 **Reserved for expansion.**
 
-## Public Hearing on Proposed Standard Provisions
+## Public hearing on proposed standard provisions
 
 **Reserved for expansion.**
 
-## Standard-Setting Process
+## Standard-setting process
 
 **Reserved for expansion.**
 
-## Official Interpretation of the Standard
+## Official interpretation of the Standard
 
 **Reserved for expansion.**
 
-## Official Staff Interpretations
+## Official staff interpretations
 
 **Reserved for expansion.**
 
@@ -41,7 +41,7 @@ featured: false
 
 **Reserved for expansion.**
 
-## Proposed Amendments to the Standard
+## Proposed amendments to the Standard
 
 **Reserved for expansion.**
 

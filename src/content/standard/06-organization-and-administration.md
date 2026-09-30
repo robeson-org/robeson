@@ -1,5 +1,5 @@
 ---
-title: "Organization and Administration v0.1 — discussion draft"
+title: "Organization and administration v0.1 — discussion draft"
 description: "Working draft for review."
 status: "draft"
 order: 26
@@ -10,7 +10,7 @@ featured: false
 version: "0.1"
 ---
 
-# Organization and Administration v0.1 — discussion draft
+# Organization and administration v0.1 — discussion draft
 
 **Status:** Proposed normative framework for discussion. No steward, administrator, or adjudicative body has been appointed. This section does not itself create a legal entity or grant authority to any organization.
 

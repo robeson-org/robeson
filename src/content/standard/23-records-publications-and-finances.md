@@ -1,5 +1,5 @@
 ---
-title: "Records, Publications, and Finances"
+title: "Records, publications, and finances"
 description: "Working draft for review."
 status: "draft"
 order: 37
@@ -9,7 +9,7 @@ bodyTitle: true
 featured: false
 ---
 
-# Records, Publications, and Finances
+# Records, publications, and finances
 
 **Status:** Reserved for expansion. No records-access, publication, budget, audit, revenue, or media-rights rule has been adopted.
 

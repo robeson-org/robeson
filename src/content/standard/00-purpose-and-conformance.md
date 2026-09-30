@@ -1,5 +1,5 @@
 ---
-title: "Interscholastic Competition Standard for Home-Education Programs, Teams, and Students"
+title: "Interscholastic competition standard for home-education programs, teams, and students"
 description: "Working draft for review."
 status: "draft"
 order: 23
@@ -10,7 +10,7 @@ featured: false
 navTitle: "Purpose and conformance"
 ---
 
-# Interscholastic Competition Standard for Home-Education Programs, Teams, and Students
+# Interscholastic competition standard for home-education programs, teams, and students
 
 **Status:** Working normative opening provisions. These provisions have not been adopted by a governing body.
 

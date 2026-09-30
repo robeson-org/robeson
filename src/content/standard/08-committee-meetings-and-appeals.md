@@ -1,5 +1,5 @@
 ---
-title: "Committee Meetings and Appeals"
+title: "Committee meetings and appeals"
 description: "Working draft for review."
 status: "draft"
 order: 28
@@ -9,11 +9,11 @@ bodyTitle: true
 featured: false
 ---
 
-# Committee Meetings and Appeals
+# Committee meetings and appeals
 
 **Status:** Reserved discussion draft. These headings establish subject order only; no meeting, hearing, or appeal procedure has been adopted.
 
-## General; Hearings
+## General; hearings
 
 **Reserved for expansion.**
 

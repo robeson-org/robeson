@@ -1,5 +1,5 @@
 ---
-title: "Interscholastic Standard"
+title: "Interscholastic standard"
 description: "Working draft for review."
 status: "draft"
 order: 0
@@ -9,11 +9,11 @@ bodyTitle: true
 featured: true
 ---
 
-# Interscholastic Competition Standard for Home-Education Programs, Teams, and Students
+# Interscholastic competition standard for home-education programs, teams, and students
 
 **Working draft for review.** No governing body has adopted this Standard. Reserved sections identify subjects still to be drafted. This site shows the current working text; a published version will be separately identified and fixed.
 
-## Proposed Standard
+## Proposed standard
 
 1. [Purpose, scope, definitions, and conformance](/standard/00-purpose-and-conformance/)
 2. [Provisional governance for 2026–27](/standard/04-provisional-governance/)

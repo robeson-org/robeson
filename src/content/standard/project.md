@@ -1,5 +1,5 @@
 ---
-title: "Interscholastic Competition Standard for Home-Education Programs, Teams, and Students"
+title: "Interscholastic competition standard for home-education programs, teams, and students"
 description: "Working draft for review."
 status: "draft"
 order: 10
@@ -10,7 +10,7 @@ featured: false
 navTitle: "Project and source map"
 ---
 
-# Interscholastic Competition Standard for Home-Education Programs, Teams, and Students
+# Interscholastic competition standard for home-education programs, teams, and students
 
 This is the Markdown source for a proposed, voluntary interscholastic Standard that organizations serving home-educated students may adopt as schools under the Standard's defined meaning. Newton Prep is a prospective adopter, and the Standard is intended for adoption by other schools as well. No organization or governing body has adopted it yet.
 

@@ -44,7 +44,7 @@ The board shall designate a disinterested person or panel with authority to make
 
 Before an adverse final eligibility or standing decision, the affected school and any person facing a participation restriction shall receive notice of the issue and material evidence, a meaningful opportunity to respond, and a written decision with reasons. A disinterested reviewer who did not make the initial decision shall hear a timely appeal. The board shall publish workable filing and decision deadlines before accepting signatories. Mediation may be offered but shall not delay a required eligibility or safety decision unless all affected parties and the decision maker agree that delay is permissible.
 
-## Development of the 2027–28 Standard
+## Development of the 2027–28 standard
 
 The board shall publish written procedures and a timetable for preparing the first regular Standard for the 2027–28 school year. The process shall be modeled on the due-process principles in the [ANSI Essential Requirements](https://www.ansi.org/american-national-standards/ans-introduction/essential-requirements): open notice and participation, outreach for balanced interests, consideration and documented resolution of written objections, a recorded consensus decision, and an impartial procedural appeal. The board shall identify relevant interest categories, including adopting schools, families and students, opponents, officials, and independent education or contest expertise, and shall take steps to prevent one interest from dominating the process.
 

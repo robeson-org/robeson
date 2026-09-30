@@ -14,7 +14,7 @@ version: "0.3"
 
 **Status:** Proposed normative framework for discussion. No protocol steward, membership body, or external organization has adopted these provisions.
 
-## Eligibility for Signatory Status
+## Eligibility for signatory status
 
 A **school**, as defined in the [opening provisions](/standard/00-purpose-and-conformance/#definitions-and-construction), may apply for signatory status. To be eligible, it must have a responsible governing body or accountable officer, a designated contest administrator, a publicly identifiable name, a reliable contact address, a duty to report changes to either, written roster and eligibility procedures, and authority to meet its obligations to opponents, officials, and the Standard's administrator.
 
@@ -22,13 +22,13 @@ The school's authority concerns **interscholastic representation and compliance*
 
 A **rostered student** is a student whom the school has accepted to represent it in specified interscholastic activities for a defined period. Roster status alone does not establish the student's educational or contest eligibility.
 
-## Attainment of Signatory Status
+## Attainment of signatory status
 
 An eligible school attains signatory status only after its authorized representative executes an adoption agreement and the body administering the Standard accepts that agreement under its published procedures. Execution alone does not confer signatory status.
 
 The adoption agreement must identify the school and authorized signer, the version of the Standard accepted, its declared conformance track, the effective period, the school's duty to certify rosters and respond to eligibility challenges, and its responsibilities for contest administration, officials' payments, and treatment of officials. It must also identify the applicable rules for reporting, investigation, decisions, remedies, appeals, and withdrawal or termination. These terms require further drafting before any school can obtain signatory status or claim certified conformance.
 
-## Signatory Dues
+## Signatory dues
 
 The steward's governing body may establish signatory dues under a published schedule incorporated into the adoption agreement. A program administrator may collect dues under written delegation. The amount, due dates, permitted adjustments, and consequences of nonpayment remain to be drafted. No dues are imposed by this discussion draft.
 
@@ -36,7 +36,7 @@ The steward's governing body may establish signatory dues under a published sche
 
 A signatory school remains in good standing only while it meets its continuing obligations under the accepted adoption agreement and applicable provisions of the Standard. The later standing rules must specify renewal, required training, dues, reporting, corrective action, suspension, termination, reinstatement, and notice and review procedures. Good standing is a condition for representing the school as a signatory; it does not alone establish eligibility for any student, team, activity, or contest.
 
-## Mandatory Suspension
+## Mandatory suspension
 
 **Reserved.** A later provision must identify the specific grounds that require suspension, when suspension takes effect, who makes the determination, what notice and review are available, and how standing may be restored. This heading alone creates no automatic suspension ground.
 

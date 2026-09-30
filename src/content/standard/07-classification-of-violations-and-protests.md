@@ -1,5 +1,5 @@
 ---
-title: "Violations, Reports, Protests, and Remedies v0.2 — discussion draft"
+title: "Violations, reports, protests, and remedies v0.2 — discussion draft"
 description: "Working draft for review."
 status: "draft"
 order: 27
@@ -10,7 +10,7 @@ featured: false
 version: "0.2"
 ---
 
-# Violations, Reports, Protests, and Remedies v0.2 — discussion draft
+# Violations, reports, protests, and remedies v0.2 — discussion draft
 
 **Status:** Proposed normative framework for discussion. No steward, program administrator, or decision maker has been appointed, and no school has adopted these procedures. The identity and authority of the decision maker, filing deadlines, and appeal procedure require further drafting before this section can operate.
 

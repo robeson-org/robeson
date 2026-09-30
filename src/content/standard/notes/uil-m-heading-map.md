@@ -1,5 +1,5 @@
 ---
-title: "UIL Subchapter M: eligibility heading map"
+title: "UIL subchapter M: eligibility heading map"
 description: "Supporting material; not proposed conformance requirements."
 status: "draft"
 order: 20
@@ -9,7 +9,7 @@ bodyTitle: true
 featured: false
 ---
 
-# UIL Subchapter M: eligibility heading map
+# UIL subchapter M: eligibility heading map
 
 **Status:** Non-normative drafting map. The [UIL 2026–27 eligibility provisions](https://www.uiltexas.org/policy/constitution/general/eligibility) provide a subject sequence; they do not automatically govern signatory schools.
 

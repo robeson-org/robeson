@@ -1,5 +1,5 @@
 ---
-title: "UIL Subchapters A–C: review for the Standard"
+title: "UIL subchapters A–C: review for the Standard"
 description: "Supporting material; not proposed conformance requirements."
 status: "draft"
 order: 18
@@ -9,7 +9,7 @@ bodyTitle: true
 featured: false
 ---
 
-# UIL Subchapters A–C: review for the Standard
+# UIL subchapters A–C: review for the Standard
 
 **Status:** Non-normative drafting notes, reviewed against the [2026–27 UIL Constitution and Contest Rules, Subchapters A–C](https://www.uiltexas.org/policy/constitution/general/overview). This is a functional comparison, not an adoption of UIL text or numbering.
 

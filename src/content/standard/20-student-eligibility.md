@@ -52,7 +52,7 @@ The student may participate in high-school interscholastic contests during **fou
 
 The clock does not restart because of a change in school, home-school provider, participating program, curriculum, grade label, or time away from competition. The parent must document the first high-school year and any prior high-school attendance or participation. If the start year is disputed, the eventual eligibility authority must decide it from the recorded competition-grade history and contemporaneous educational and participation records before participation. Disability-related or other extensions require a separately adopted exception procedure and do not override another organization's rules.
 
-## 7. Exclusive Seasonal Participation — High School
+## 7. Exclusive seasonal participation — high school
 
 A student competing at the high-school level may not, during the same season, participate in the same activity both:
 

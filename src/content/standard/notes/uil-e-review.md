@@ -1,5 +1,5 @@
 ---
-title: "UIL Subchapter E: organization and administration review"
+title: "UIL subchapter E: organization and administration review"
 description: "Supporting material; not proposed conformance requirements."
 status: "draft"
 order: 19
@@ -9,7 +9,7 @@ bodyTitle: true
 featured: false
 ---
 
-# UIL Subchapter E: organization and administration review
+# UIL subchapter E: organization and administration review
 
 **Status:** Non-normative drafting map, reviewed against the [2026–27 UIL Subchapter E overview](https://www.uiltexas.org/policy/constitution/general/organization) and its [committee sections](https://www.uiltexas.org/policy/constitution/general).
 
