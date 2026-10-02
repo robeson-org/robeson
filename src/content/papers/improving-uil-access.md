@@ -30,7 +30,7 @@ Robeson will document that work alongside legal and historical research, compari
 
 ## 1. The problem
 
-The State of Texas has decided that home-school students should have access to UIL activities and has backed that decision with financial support. School districts are entitled to an annual allotment of $1,500 per participating non-enrolled student for each UIL activity in which the student participates, subject to the funding requirements. See [Texas Education Code §48.305 and its implementing rule](https://tea.texas.gov/about-tea/laws-and-rules/commissioner-rules-tac/coe-adopted/24-07-105-1031.pdf).
+The State of Texas has decided that home-school students should have access to UIL activities and has backed that decision with financial support. School districts are entitled to an annual allotment of $1,500 per participating non-enrolled student for each UIL activity in which the student participates, subject to the funding requirements. See Texas Education Code §48.305, implemented by [19 TAC §105.1031](https://tea.texas.gov/laws-and-rules/commissioner-rules-tac/coe-tac-currently-effect/ch105dd.pdf).
 
 Yet even with this clear legislative intent and state financial support, many school districts have declined to accept non-enrolled students into their UIL activities.
 
