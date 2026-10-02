@@ -1,5 +1,5 @@
 ---
-revised: "2026-09-30"
+revised: "2026-10-02"
 title: "Interscholastic standard"
 description: "Working draft for review."
 status: "draft"
@@ -13,6 +13,10 @@ featured: true
 # Interscholastic competition standard for home-education programs, teams, and students
 
 **Working draft for review.** No governing body has adopted this Standard. Reserved sections identify subjects still to be drafted. This site shows the current working text; a published version will be separately identified and fixed.
+
+## Sources and reuse
+
+This proposed standard draws on and adapts UIL material. Newton Prep licenses its original contributions under CC BY 4.0; this grant does not extend to underlying UIL or other third-party rights. See [Copyright and reuse](/reuse/) for scope and exceptions. Source references identify origins and do not establish permission for reuse.
 
 ## Proposed standard
 

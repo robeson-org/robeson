@@ -8,4 +8,4 @@ Use short branches such as `content/student-eligibility` or `site/navigation`, a
 
 Use `site-vX.Y.Z` for site releases and `standard-vX.Y.Z` for formally approved standard releases. Never move an existing release tag. A standard release requires an explicit approved text, source commit, version/date, changelog, and durable downloadable Markdown archive with checksums. Do not turn a working draft number into an adopted standard release. Preserve earlier releases and describe substantive changes. Site releases do not imply standard adoption.
 
-No license is assumed for the standard or third-party source material; resolve licensing before declaring reuse rights.
+Newton Prep’s original publication contributions are licensed under CC BY 4.0 as specified in LICENSE.md and the site’s Copyright and reuse page. Identify third-party quotations and adaptations with source references; do not apply Newton Prep’s license to underlying third-party rights. Record image-specific rights in captions. Website software and branding are excluded from the publication license.
