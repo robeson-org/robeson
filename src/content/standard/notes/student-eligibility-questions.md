@@ -1,4 +1,5 @@
 ---
+revised: "2026-09-26"
 title: "Age, graduation, and four-year rule: choices for v0.2"
 description: "Supporting material; not proposed conformance requirements."
 status: "draft"

@@ -1,4 +1,5 @@
 ---
+revised: "2026-09-30"
 title: "Provisional governance for the 2026–27 school year v0.1 — discussion draft"
 description: "Working draft for review."
 status: "draft"

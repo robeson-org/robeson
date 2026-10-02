@@ -1,4 +1,5 @@
 ---
+revised: "2026-09-30"
 title: "Committee meetings and appeals"
 description: "Working draft for review."
 status: "draft"

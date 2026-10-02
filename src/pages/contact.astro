@@ -1,0 +1,60 @@
+---
+import Base from "../layouts/Base.astro";
+import { contactEmail } from "../lib/contact";
+---
+
+<Base
+  title="Contact and comments"
+  description="Contact Newton Prep about Robeson and comment on the working drafts."
+>
+  <article class="publication prose">
+    <h1>Contact and comments</h1>
+    <p>
+      Newton Prep maintains Robeson. We welcome questions, corrections,
+      practical experience, and proposed changes to the work published here.
+    </p>
+    <h2>Contact us</h2>
+    {contactEmail && (
+      <p>
+        Email <a href={`mailto:${contactEmail}`}>{contactEmail}</a> for
+        inquiries or comments.
+      </p>
+    )}
+    <h2>Comment on a draft</h2>
+    <p>
+      Use “Comment on this draft” on a document to open an email with its title
+      and address included. You can also send an email directly.
+    </p>
+    <p>
+      Please identify the document and section, explain your concern, and
+      suggest wording where useful. Include the revision date shown on the page
+      if you are commenting on an earlier version.
+    </p>
+    <p>
+      We are especially interested in whether the proposals are clear, what
+      difficulties they would create in practice, and what we have overlooked.
+      You do not need to review an entire document to offer a useful comment.
+    </p>
+    <p>
+      Email comments go privately to the project team. Please tell us whether we
+      may quote your comments or identify you in a published revision.
+    </p>
+    <h2>Contribute through GitHub</h2>
+    <p>
+      If you use GitHub, you can{" "}
+      <a href="https://github.com/robeson-org/robeson/issues">
+        submit an issue
+      </a>{" "}
+      or propose an edit in the{" "}
+      <a href="https://github.com/robeson-org/robeson">repository</a>. GitHub
+      contributions are public. Email and GitHub comments receive the same
+      consideration.
+    </p>
+    <h2>Follow revisions</h2>
+    <p>
+      The <a href="/revisions/">revision history</a> records substantive
+      updates. Each document links to its source history, where earlier versions
+      remain available.
+    </p>
+  </article>
+</Base>

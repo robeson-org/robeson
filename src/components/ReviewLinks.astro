@@ -1,0 +1,9 @@
+---
+import { commentLink } from "../lib/contact";
+const { title, path } = Astro.props;
+---
+
+<div class="review-links">
+  <a href={commentLink(title, path)}>Comment on this draft</a>
+  <a href="/contact/">How to submit comments</a>
+</div>

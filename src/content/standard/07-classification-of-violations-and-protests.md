@@ -1,4 +1,5 @@
 ---
+revised: "2026-09-30"
 title: "Violations, reports, protests, and remedies v0.2 — discussion draft"
 description: "Working draft for review."
 status: "draft"

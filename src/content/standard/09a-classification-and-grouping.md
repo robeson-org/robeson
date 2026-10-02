@@ -1,4 +1,5 @@
 ---
+revised: "2026-09-30"
 title: "Classification, modules, and grouping"
 description: "Working draft for review."
 status: "draft"

@@ -1,4 +1,5 @@
 ---
+revised: "2026-09-30"
 title: "UIL subchapters A–C: review for the Standard"
 description: "Supporting material; not proposed conformance requirements."
 status: "draft"

@@ -1,5 +1,6 @@
 ---
 import { getCollection, render } from "astro:content";
+import ReviewLinks from "../components/ReviewLinks.astro";
 import Base from "../layouts/Base.astro";
 export async function getStaticPaths() {
   return (await getCollection("publications")).map((doc) => ({
@@ -66,6 +67,26 @@ const next = chapterIndex >= 0 ? chapters[chapterIndex + 1] : undefined;
             : doc.data.status}
         {doc.data.version && ` · v${doc.data.version}`}
       </p>
+      {doc.data.revised && (
+        <p class="revision-date">
+          Text revised{" "}
+          <time datetime={doc.data.revised}>
+            {new Date(`${doc.data.revised}T12:00:00Z`).toLocaleDateString(
+              "en-US",
+              {
+                year: "numeric",
+                month: "long",
+                day: "numeric",
+                timeZone: "UTC",
+              },
+            )}
+          </time>{" "}
+          · <a href="/revisions/">Revision history</a>
+        </p>
+      )}
+      {doc.data.status === "draft" && !isAbout && (
+        <ReviewLinks title={doc.data.title} path={Astro.url.pathname} />
+      )}
       {migrated && (
         <p class="document-notice">
           {doc.data.group === "notes" || doc.data.group === "sources"
@@ -96,6 +117,16 @@ const next = chapterIndex >= 0 ? chapters[chapterIndex + 1] : undefined;
       <div class="prose">
         <Content />
       </div>
+      {doc.data.status === "draft" && !isAbout && (
+        <ReviewLinks title={doc.data.title} path={Astro.url.pathname} />
+      )}
+      <p class="source-links">
+        <a
+          href={`https://github.com/robeson-org/robeson/commits/main/src/content/${doc.id}.md`}
+        >
+          Document history on GitHub
+        </a>
+      </p>
       {migrated && (
         <div class="source-links">
           <a

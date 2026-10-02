@@ -1,4 +1,5 @@
 ---
+revised: "2026-09-30"
 title: "Signatories to the Standard and conformance tracks v0.3 — discussion draft"
 description: "Working draft for review."
 status: "draft"

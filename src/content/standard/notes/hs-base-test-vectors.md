@@ -1,4 +1,5 @@
 ---
+revised: "2026-09-26"
 title: "HS-BASE test vectors"
 description: "Supporting material; not proposed conformance requirements."
 status: "draft"

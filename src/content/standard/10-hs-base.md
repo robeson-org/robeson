@@ -1,4 +1,5 @@
 ---
+revised: "2026-09-30"
 title: "HS-BASE v0.5 — home-educated student"
 description: "Working draft for review."
 status: "draft"

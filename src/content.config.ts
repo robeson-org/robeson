@@ -5,6 +5,7 @@ const publications = defineCollection({
   loader: glob({ pattern: "**/*.md", base: "./src/content" }),
   schema: z.object({
     title: z.string(),
+    revised: z.string().optional(),
     description: z.string(),
     status: z.enum(["placeholder", "draft", "published"]),
     order: z.number(),

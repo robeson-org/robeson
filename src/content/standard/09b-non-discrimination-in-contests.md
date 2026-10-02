@@ -1,4 +1,5 @@
 ---
+revised: "2026-09-30"
 title: "Non-discrimination in contests"
 description: "Working draft for review."
 status: "draft"

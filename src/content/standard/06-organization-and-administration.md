@@ -1,4 +1,5 @@
 ---
+revised: "2026-09-30"
 title: "Organization and administration v0.1 — discussion draft"
 description: "Working draft for review."
 status: "draft"

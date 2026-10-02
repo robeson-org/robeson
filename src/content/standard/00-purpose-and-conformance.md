@@ -1,4 +1,5 @@
 ---
+revised: "2026-09-30"
 title: "Interscholastic competition standard for home-education programs, teams, and students"
 description: "Working draft for review."
 status: "draft"

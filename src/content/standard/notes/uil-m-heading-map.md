@@ -1,4 +1,5 @@
 ---
+revised: "2026-09-30"
 title: "UIL subchapter M: eligibility heading map"
 description: "Supporting material; not proposed conformance requirements."
 status: "draft"

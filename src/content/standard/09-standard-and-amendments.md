@@ -1,4 +1,5 @@
 ---
+revised: "2026-09-30"
 title: "Standard and amendments"
 description: "Working draft for review."
 status: "draft"

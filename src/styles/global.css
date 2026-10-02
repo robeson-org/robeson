@@ -426,3 +426,25 @@ header {
     gap: 12px 18px;
   }
 }
+
+.review-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  margin: 20px 0;
+  font:
+    15px/1.6 system-ui,
+    sans-serif;
+}
+.revision-date {
+  color: #645e51;
+  font:
+    14px/1.6 system-ui,
+    sans-serif;
+}
+.preparation {
+  margin: 36px 0;
+}
+.preparation li {
+  margin: 12px 0;
+}

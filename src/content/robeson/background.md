@@ -1,4 +1,5 @@
 ---
+revised: "2026-09-30"
 title: "About Robeson"
 description: "Paul Robeson’s life and the educational ambition behind a Newton Prep initiative."
 status: draft

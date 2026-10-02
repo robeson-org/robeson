@@ -1,4 +1,5 @@
 ---
+revised: "2026-09-30"
 title: "Improving UIL access for Texas home-school students"
 description: "A discussion draft examining whether accountable home-school organizations could assume the responsibilities of UIL membership."
 status: draft
